@@ -1,12 +1,12 @@
-<p align="center"><img src="public/images/favicon-no-bg.svg" width="80"></p>
-<h1 align="center">BentoPDF</h1>
+<p align="center"><img src="public/images/softscout-logo-small.png" width="140"></p>
+<h1 align="center">SoftScout PDF</h1>
 
-**BentoPDF** is a powerful, privacy-first, client-side PDF toolkit that is self hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.
+**SoftScout PDF** is a powerful, privacy-first, client-side PDF toolkit that is self hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/bentopdf/bentopdf) [![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?logo=kofi&style=flat-square)](https://ko-fi.com/alio01) ![GitHub Stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social)
 [![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4)](https://github.com/sponsors/alam00000)
 
-![BentoPDF Tools](public/images/bentopdf-tools.png)
+![SoftScout PDF Tools](public/images/bentopdf-tools.png)
 
 ---
 
@@ -20,9 +20,9 @@ Have questions, feature requests, or want to chat with the community? Join our D
 
 ## 📚 Documentation
 
-[![Documentation](https://img.shields.io/badge/Docs-VitePress-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://bentopdf.com/docs/)
+[![Documentation](https://img.shields.io/badge/Docs-VitePress-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://softscout.net/docs/)
 
-Visit our [Documentation](https://bentopdf.com/docs/) for:
+Visit our [Documentation](https://softscout.net/docs/) for:
 
 - **Getting Started** guide
 - **Tools Reference** (50+ tools)
@@ -34,12 +34,12 @@ Visit our [Documentation](https://bentopdf.com/docs/) for:
 
 ## 📜 Licensing
 
-BentoPDF is dual-licensed:
+SoftScout PDF is dual-licensed:
 
 - **AGPL-3.0** for open-source projects where you share your full source code publicly
 - **Commercial License** for proprietary/closed-source applications - **[Get Lifetime License for $49](https://ko-fi.com/s/f32ca4cb75)** (a one-time lifetime purchase, includes all feature updates forever)
 
-For more details, see our [Licensing Page](https://bentopdf.com/licensing.html)
+For more details, see our [Licensing Page](https://softscout.net/licensing.html)
 
 <hr>
 
@@ -51,7 +51,7 @@ For more details, see our [Licensing Page](https://bentopdf.com/licensing.html)
 
 ## 💖 Thank You to Our Sponsors
 
-We're incredibly grateful to all our sponsors and supporters who help keep BentoPDF free and open source!
+We're incredibly grateful to all our sponsors and supporters who help keep SoftScout PDF free and open source!
 
 [![Sponsor me on GitHub](https://img.shields.io/badge/Become%20a%20Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge)](https://github.com/sponsors/alam00000)
 [![Buy me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?style=for-the-badge&logo=kofi)](https://ko-fi.com/alio01)
@@ -61,18 +61,18 @@ We're incredibly grateful to all our sponsors and supporters who help keep Bento
 
 ---
 
-## ✨ Why BentoPDF?
+## ✨ Why SoftScout PDF?
 
 - **Privacy First**: All processing happens in your browser. Your files are never uploaded to a server, guaranteeing 100% privacy.
 - **No Limits**: Manipulate as many files as you want, as often you want. There are no restrictions or upload limits.
-- **High Performance**: Built with modern web technologies, BentoPDF is fast and efficient, handling even large PDF files with ease.
-- **Completely Free**: BentoPDF is a free and open-source tool for everyone.
+- **High Performance**: Built with modern web technologies, SoftScout PDF is fast and efficient, handling even large PDF files with ease.
+- **Completely Free**: SoftScout PDF is a free and open-source tool for everyone.
 
 ---
 
 ## 🛠️ Features / Tools Supported
 
-BentoPDF offers a comprehensive suite of tools to handle all your PDF needs.
+SoftScout PDF offers a comprehensive suite of tools to handle all your PDF needs.
 
 ### Organize & Manage PDFs
 
@@ -178,7 +178,7 @@ BentoPDF offers a comprehensive suite of tools to handle all your PDF needs.
 
 ## 🌍 Translations
 
-BentoPDF is available in multiple languages:
+SoftScout PDF is available in multiple languages:
 
 | Language            | Status                                                                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -193,13 +193,13 @@ BentoPDF is available in multiple languages:
 | Turkish             | [![Turkish](https://img.shields.io/badge/Complete-green?style=flat-square)](public/locales/tr/common.json)                |
 | Vietnamese          | [![Vietnamese](https://img.shields.io/badge/Complete-green?style=flat-square)](public/locales/vi/common.json)             |
 
-Want to help translate BentoPDF into your language? Check out our [Translation Guide](TRANSLATION.md)!
+Want to help translate SoftScout PDF into your language? Check out our [Translation Guide](TRANSLATION.md)!
 
 ---
 
 ## 🚀 Getting Started
 
-You can run BentoPDF locally for development or personal use.
+You can run SoftScout PDF locally for development or personal use.
 
 ### Prerequisites
 
@@ -211,10 +211,10 @@ You can run BentoPDF locally for development or personal use.
 
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/K4AU2B)
 
-You can run BentoPDF directly from Docker Hub or GitHub Container Registry without cloning the repository:
+You can run SoftScout PDF directly from Docker Hub or GitHub Container Registry without cloning the repository:
 
 You can also watch the video on how to set it up 👉
-[BentoPDF Docker Setup](https://drive.google.com/file/d/1C4eJ2nqeaH__1Tlad-xuBHaF2Ha4fSBf/view?usp=drive_link)
+[SoftScout PDF Docker Setup](https://drive.google.com/file/d/1C4eJ2nqeaH__1Tlad-xuBHaF2Ha4fSBf/view?usp=drive_link)
 
 **Using Docker Hub:**
 
@@ -230,21 +230,21 @@ docker run -p 3000:8080 ghcr.io/alam00000/bentopdf:latest
 
 Open your browser at: http://localhost:3000
 
-This is the fastest way to try BentoPDF without setting up a development environment.
+This is the fastest way to try SoftScout PDF without setting up a development environment.
 
 ### Static Hosting using Netlify, Vercel, and GitHub Pages
 
-It is very straightforward to host your own instance of BentoPDF using a static web page hosting service. Plus, services such as Netlify, Vercel, and GitHub Pages all offer a free tier for getting started. See [Static Hosting](https://github.com/alam00000/bentopdf/blob/main/STATIC-HOSTING.md)) for details.
+It is very straightforward to host your own instance of SoftScout PDF using a static web page hosting service. Plus, services such as Netlify, Vercel, and GitHub Pages all offer a free tier for getting started. See [Static Hosting](https://github.com/alam00000/bentopdf/blob/main/STATIC-HOSTING.md)) for details.
 
 ### 🏠 Self-Hosting Locally
 
-Since BentoPDF is fully client-side, all processing happens in the user's browser and no server-side processing is required. This means you can host BentoPDF as simple static files on any web server or hosting platform.
+Since SoftScout PDF is fully client-side, all processing happens in the user's browser and no server-side processing is required. This means you can host SoftScout PDF as simple static files on any web server or hosting platform.
 
 **Download from Releases (Recommended):**
 
 The easiest way to self-host is to download the pre-built distribution file from our [GitHub releases](https://github.com/alam00000/bentopdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
 
-1. Go to [BentoPDF Releases](https://github.com/alam00000/bentopdf/releases)
+1. Go to [SoftScout PDF Releases](https://github.com/alam00000/bentopdf/releases)
 2. Download the latest `dist-{version}.zip` file
 3. Extract the zip file
 4. Serve the extracted folder with your preferred web server
@@ -290,7 +290,7 @@ npm run preview
 
 **Compression Modes:**
 
-BentoPDF supports different compression modes for optimized builds:
+SoftScout PDF supports different compression modes for optimized builds:
 
 ```bash
 # Gzip only (smallest Docker image size)
@@ -319,7 +319,7 @@ docker build --build-arg COMPRESSION_MODE=all -t bentopdf:all .
 
 **CDN Optimization:**
 
-BentoPDF can use jsDelivr CDN to serve large WASM files (LibreOffice, Ghostscript, PyMuPDF) for improved performance and reduced bandwidth costs:
+SoftScout PDF can use jsDelivr CDN to serve large WASM files (LibreOffice, Ghostscript, PyMuPDF) for improved performance and reduced bandwidth costs:
 
 ```bash
 # Production build with CDN (Recommended)
@@ -337,7 +337,7 @@ npm run build
 
 **Subdirectory Hosting:**
 
-BentoPDF can also be hosted from a subdirectory (e.g., `example.com/tools/bentopdf/`):
+SoftScout PDF can also be hosted from a subdirectory (e.g., `example.com/tools/bentopdf/`):
 
 ```bash
 
@@ -362,7 +362,7 @@ The `npm run package` command creates a `dist-{version}.zip` file that you can u
 
 **Docker Subdirectory Deployment:**
 
-BentoPDF's Docker image also supports the `BASE_URL` build argument for subdirectory deployments:
+SoftScout PDF's Docker image also supports the `BASE_URL` build argument for subdirectory deployments:
 
 ```bash
 # Build for subdirectory deployment
@@ -417,7 +417,7 @@ The application will be available at `http://localhost:3000`.
 
 ### 🏢 Simple Mode for Internal Use
 
-For organizations that want a clean, distraction-free interface focused solely on PDF tools, BentoPDF supports a **Simple Mode** that hides all branding and marketing content.
+For organizations that want a clean, distraction-free interface focused solely on PDF tools, SoftScout PDF supports a **Simple Mode** that hides all branding and marketing content.
 
 **What Simple Mode does:**
 
@@ -430,7 +430,7 @@ For more details, see [SIMPLE_MODE.md](SIMPLE_MODE.md).
 
 ### 🔒 Security Features
 
-BentoPDF runs as a non-root user using nginx-unprivileged for enhanced security:
+SoftScout PDF runs as a non-root user using nginx-unprivileged for enhanced security:
 
 - **Non-Root Execution**: Container runs with minimal privileges using nginx-unprivileged
 - **Port 8080**: Uses high port number to avoid requiring root privileges
@@ -519,7 +519,7 @@ npx wrangler deploy
 
 > **⚠️ Security Warning:** Client-side secrets can be extracted from bundled JavaScript. For production deployments with sensitive requirements, use your own backend server to proxy requests instead of embedding secrets in frontend code.
 
-BentoPDF uses client-side HMAC as a deterrent against casual abuse, but accepts this tradeoff due to its fully client-side architecture. To enable:
+SoftScout PDF uses client-side HMAC as a deterrent against casual abuse, but accepts this tradeoff due to its fully client-side architecture. To enable:
 
 ```bash
 # Generate a secret
@@ -534,7 +534,7 @@ VITE_CORS_PROXY_SECRET=your-secret npm run build
 
 ### 📦 Version Management
 
-BentoPDF supports semantic versioning with multiple Docker tags available on both Docker Hub and GitHub Container Registry:
+SoftScout PDF supports semantic versioning with multiple Docker tags available on both Docker Hub and GitHub Container Registry:
 
 **Docker Hub:**
 
@@ -615,7 +615,7 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 
 ## 🛠️ Tech Stack & Background
 
-BentoPDF was originally built using **HTML**, **CSS**, and **vanilla JavaScript**. As the project grew, it was migrated to a modern stack for better maintainability and scalability:
+SoftScout PDF was originally built using **HTML**, **CSS**, and **vanilla JavaScript**. As the project grew, it was migrated to a modern stack for better maintainability and scalability:
 
 - **Vite**: A fast build tool for modern web development.
 - **TypeScript**: For type safety and an improved developer experience.
@@ -682,7 +682,7 @@ Documentation files are in the `docs/` folder:
 
 ## Special Thanks
 
-BentoPDF wouldn't be possible without the amazing open-source tools and libraries that power it. We'd like to extend our heartfelt thanks to the creators and maintainers of:
+SoftScout PDF wouldn't be possible without the amazing open-source tools and libraries that power it. We'd like to extend our heartfelt thanks to the creators and maintainers of:
 
 - **[PDFLib.js](https://pdf-lib.js.org/)** – For enabling powerful client-side PDF manipulation.
 - **[PDF.js](https://mozilla.github.io/pdf.js/)** – For the robust PDF rendering engine in the browser.
