@@ -1,10 +1,10 @@
 # Self-Hosting Guide
 
-BentoPDF can be self-hosted on your own infrastructure. This guide covers various deployment options.
+SoftScout PDF can be self-hosted on your own infrastructure. This guide covers various deployment options.
 
 ## Quick Start with Docker
 
-The fastest way to self-host BentoPDF:
+The fastest way to self-host SoftScout PDF:
 
 ```bash
 docker run -d -p 3000:8080 ghcr.io/alam00000/bentopdf:latest
@@ -18,7 +18,7 @@ services:
   bentopdf:
     image: ghcr.io/alam00000/bentopdf:latest
     ports:
-      - "3000:8080"
+      - '3000:8080'
     restart: unless-stopped
 ```
 
@@ -45,6 +45,7 @@ npm run build
 Simple Mode is designed for internal organizational use where you want to hide all branding and marketing content, showing only the essential PDF tools.
 
 **What Simple Mode hides:**
+
 - Navigation bar
 - Hero section with marketing content
 - Features, FAQ, testimonials sections
@@ -85,12 +86,12 @@ Choose your platform:
 
 ## System Requirements
 
-| Requirement | Minimum |
-|-------------|---------|
-| Storage | ~500 MB (with all WASM modules) |
-| RAM | 512 MB |
-| CPU | Any modern processor |
+| Requirement | Minimum                         |
+| ----------- | ------------------------------- |
+| Storage     | ~500 MB (with all WASM modules) |
+| RAM         | 512 MB                          |
+| CPU         | Any modern processor            |
 
 ::: tip
-BentoPDF is a static site—there's no database or backend server required!
+SoftScout PDF is a static site—there's no database or backend server required!
 :::

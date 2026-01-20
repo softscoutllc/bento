@@ -13,21 +13,24 @@ When signing a PDF with a certificate:
 
 ## Self-Hosting the CORS Proxy
 
-If you're self-hosting BentoPDF, you'll need to deploy your own CORS proxy.
+If you're self-hosting SoftScout PDF, you'll need to deploy your own CORS proxy.
 
 ### Option 1: Cloudflare Workers (Recommended)
 
 1. **Install Wrangler CLI**:
+
    ```bash
    npm install -g wrangler
    ```
 
 2. **Login to Cloudflare**:
+
    ```bash
    wrangler login
    ```
 
 3. **Deploy the proxy**:
+
    ```bash
    cd cloudflare
    wrangler deploy
@@ -35,11 +38,12 @@ If you're self-hosting BentoPDF, you'll need to deploy your own CORS proxy.
 
 4. **Update your environment**:
    Create a `.env` or set in your hosting platform:
+
    ```
    VITE_CORS_PROXY_URL=https://your-worker-name.your-subdomain.workers.dev
    ```
 
-5. **Rebuild BentoPDF**:
+5. **Rebuild SoftScout PDF**:
    ```bash
    npm run build
    ```
@@ -60,16 +64,16 @@ Example Express.js implementation:
 ```javascript
 app.get('/api/cert-proxy', async (req, res) => {
   const targetUrl = req.query.url;
-  
+
   // Validate it's a certificate URL
   if (!isValidCertUrl(targetUrl)) {
     return res.status(400).json({ error: 'Invalid URL' });
   }
-  
+
   try {
     const response = await fetch(targetUrl);
     const data = await response.arrayBuffer();
-    
+
     res.set('Access-Control-Allow-Origin', '*');
     res.set('Content-Type', 'application/x-x509-ca-cert');
     res.send(Buffer.from(data));
@@ -111,6 +115,7 @@ VITE_CORS_PROXY_URL=
 ### Certificates That Work Without Proxy
 
 Some certificates include the full chain in the P12/PFX file and don't require external fetching:
+
 - Self-signed certificates
 - Some commercial CAs that bundle intermediate certificates
 - Certificates you've manually assembled with the full chain

@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "BentoPDF"
-  text: "Free, Open-Source PDF Tools"
+  name: 'SoftScout PDF'
+  text: 'Free, Open-Source PDF Tools'
   tagline: Process PDFs entirely in your browser. No uploads. No servers. Complete privacy.
   actions:
     - theme: brand

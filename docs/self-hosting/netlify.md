@@ -13,15 +13,15 @@
 1. Log in to [Netlify](https://app.netlify.com)
 2. Click "Add new site" → "Import an existing project"
 3. Connect your GitHub account
-4. Select your BentoPDF fork
+4. Select your SoftScout PDF fork
 
 ### Step 2: Configure Build Settings
 
-| Setting | Value |
-|---------|-------|
-| Build command | `npm run build` |
-| Publish directory | `dist` |
-| Node version | 18+ |
+| Setting           | Value           |
+| ----------------- | --------------- |
+| Build command     | `npm run build` |
+| Publish directory | `dist`          |
+| Node version      | 18+             |
 
 ### Step 3: Deploy
 
@@ -57,8 +57,8 @@ Create `netlify.toml` in your project root:
 
 Set these in Site settings → Environment variables:
 
-| Variable | Description |
-|----------|-------------|
+| Variable      | Description                     |
+| ------------- | ------------------------------- |
 | `SIMPLE_MODE` | Set to `true` for minimal build |
 
 ## Custom Domain

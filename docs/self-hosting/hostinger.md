@@ -1,6 +1,6 @@
 # Deploy to Hostinger
 
-[Hostinger](https://hostinger.com) is a popular shared hosting provider. This guide covers deploying BentoPDF to Hostinger's shared hosting.
+[Hostinger](https://hostinger.com) is a popular shared hosting provider. This guide covers deploying SoftScout PDF to Hostinger's shared hosting.
 
 ## Prerequisites
 
@@ -143,7 +143,7 @@ AddType image/webp .webp
 # ============================================
 # Canonical WWW
 RewriteCond %{HTTP_HOST} ^bentopdf\.com [NC]
-RewriteRule ^(.*)$ https://www.bentopdf.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://softscout.net/$1 [L,R=301]
 
 # Force HTTPS
 RewriteCond %{HTTPS} off

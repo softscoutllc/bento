@@ -2,7 +2,7 @@
 
 ## Non-Root User Support
 
-BentoPDF now uses nginx-unprivileged for enhanced security. This follows the Principle of Least Privilege and is essential for production environments.
+SoftScout PDF now uses nginx-unprivileged for enhanced security. This follows the Principle of Least Privilege and is essential for production environments.
 
 ### Security Benefits
 

@@ -18,12 +18,12 @@ Fork [bentopdf/bentopdf](https://github.com/alam00000/bentopdf) to your GitHub a
 2. Select your forked repository
 3. Configure the project:
 
-| Setting | Value |
-|---------|-------|
-| Framework Preset | Vite |
-| Build Command | `npm run build` |
-| Output Directory | `dist` |
-| Install Command | `npm install` |
+| Setting          | Value           |
+| ---------------- | --------------- |
+| Framework Preset | Vite            |
+| Build Command    | `npm run build` |
+| Output Directory | `dist`          |
+| Install Command  | `npm install`   |
 
 ### Step 3: Environment Variables (Optional)
 
@@ -47,7 +47,7 @@ Click "Deploy" and wait for the build to complete.
 ## Limitations
 
 ::: warning Large Files
-Vercel's serverless functions have a 50MB limit. Since BentoPDF is a static site, this shouldn't affect you, but WASM modules are large (~100MB total). Ensure they're served from the `/public` folder.
+Vercel's serverless functions have a 50MB limit. Since SoftScout PDF is a static site, this shouldn't affect you, but WASM modules are large (~100MB total). Ensure they're served from the `/public` folder.
 :::
 
 ## Troubleshooting

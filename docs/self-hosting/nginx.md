@@ -1,6 +1,6 @@
 # Deploy with Nginx
 
-Host BentoPDF on your own server using Nginx.
+Host SoftScout PDF on your own server using Nginx.
 
 ## Prerequisites
 
@@ -120,7 +120,7 @@ http {
 
     # Increase buffer sizes
     client_max_body_size 100M;
-    
+
     # Worker connections
     worker_connections 2048;
 }

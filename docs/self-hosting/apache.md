@@ -1,6 +1,6 @@
 # Deploy with Apache
 
-Host BentoPDF using Apache HTTP Server.
+Host SoftScout PDF using Apache HTTP Server.
 
 ## Prerequisites
 
@@ -81,11 +81,11 @@ Create `/var/www/bentopdf/.htaccess`:
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
-    
+
     # Don't rewrite files or directories
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    
+
     # Rewrite everything else to index.html
     RewriteRule ^ index.html [L]
 </IfModule>
@@ -125,7 +125,7 @@ BASE_URL=/pdf/ npm run build
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /pdf/
-    
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^ index.html [L]

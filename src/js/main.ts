@@ -39,9 +39,9 @@ const init = async () => {
           <div class="container mx-auto px-4">
             <div class="flex justify-start items-center h-16">
               <div class="flex-shrink-0 flex items-center cursor-pointer" id="home-logo">
-                <img src="/images/favicon.svg" alt="Bento PDF Logo" class="h-8 w-8">
+                <img src="/images/favicon.svg" alt="SoftScout PDF Logo" class="h-8 w-8">
                 <span class="text-white font-bold text-xl ml-2">
-                  <a href="index.html">BentoPDF</a>
+                  <a href="index.html">SoftScout PDF</a>
                 </span>
               </div>
             </div>
@@ -111,11 +111,11 @@ const init = async () => {
             <div class="flex items-center justify-between flex-wrap gap-4">
               <div>
                 <div class="flex items-center mb-2">
-                  <img src="/images/favicon.svg" alt="Bento PDF Logo" class="h-8 w-8 mr-2">
-                  <span class="text-white font-bold text-lg">BentoPDF</span>
+                  <img src="/images/favicon.svg" alt="SoftScout PDF Logo" class="h-8 w-8 mr-2">
+                  <span class="text-white font-bold text-lg">SoftScout PDF</span>
                 </div>
                 <p class="text-gray-400 text-sm">
-                  &copy; 2026 BentoPDF. All rights reserved.
+                  &copy; 2026 SoftScout PDF. All rights reserved.
                 </p>
                 <p class="text-gray-500 text-xs mt-2">
                   Version <span id="app-version-simple">${APP_VERSION}</span>
@@ -146,7 +146,7 @@ const init = async () => {
         (divider as HTMLElement).style.display = 'none';
       });
 
-      document.title = 'BentoPDF - PDF Tools';
+      document.title = 'SoftScout PDF - PDF Tools';
 
       const toolsHeader = document.getElementById('tools-header');
       if (toolsHeader) {

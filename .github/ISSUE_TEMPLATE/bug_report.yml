@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: Report a bug in BentoPDF
+description: Report a bug in SoftScout PDF
 title: "(Bug) "
 labels: ["bug", "needs triage"]
 body:
@@ -94,7 +94,7 @@ body:
   - type: input
     id: bentopdf-version
     attributes:
-      label: BentoPDF Version
+      label: SoftScout PDF Version
       description: Check the footer or package.json
       placeholder: "1.15.4"
     validations:

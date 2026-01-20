@@ -1,4 +1,4 @@
-# Simple Mode for BentoPDF
+# Simple Mode for SoftScout PDF
 
 Simple Mode is designed for internal organizational use where you want to hide all branding and marketing content, showing only the essential PDF tools for your users.
 

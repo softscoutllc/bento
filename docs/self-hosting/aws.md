@@ -1,6 +1,6 @@
 # Deploy to AWS S3 + CloudFront
 
-Host BentoPDF on AWS for maximum control and scalability.
+Host SoftScout PDF on AWS for maximum control and scalability.
 
 ## Architecture
 
@@ -94,11 +94,11 @@ Configure 404 to return `index.html` for SPA routing:
 
 ## Cost Estimation
 
-| Resource | Estimated Cost |
-|----------|----------------|
-| S3 Storage (~500MB) | ~$0.01/month |
-| CloudFront (1TB transfer) | ~$85/month |
-| CloudFront (10GB transfer) | ~$0.85/month |
+| Resource                   | Estimated Cost |
+| -------------------------- | -------------- |
+| S3 Storage (~500MB)        | ~$0.01/month   |
+| CloudFront (1TB transfer)  | ~$85/month     |
+| CloudFront (10GB transfer) | ~$0.85/month   |
 
 ::: tip
 Use S3 Intelligent Tiering for cost optimization on infrequently accessed files.
@@ -117,15 +117,15 @@ resource "aws_cloudfront_distribution" "bentopdf" {
     domain_name = aws_s3_bucket.bentopdf.bucket_regional_domain_name
     origin_id   = "S3Origin"
   }
-  
+
   enabled             = true
   default_root_object = "index.html"
-  
+
   default_cache_behavior {
     allowed_methods  = ["GET", "HEAD"]
     cached_methods   = ["GET", "HEAD"]
     target_origin_id = "S3Origin"
-    
+
     viewer_protocol_policy = "redirect-to-https"
   }
 }

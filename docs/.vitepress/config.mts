@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "BentoPDF Docs",
-    description: "Documentation for BentoPDF - The free, open-source, privacy-first PDF toolkit",
+    title: "SoftScout PDF Docs",
+    description: "Documentation for SoftScout PDF - The free, open-source, privacy-first PDF toolkit",
     base: '/docs/',
 
     themeConfig: {
@@ -65,7 +65,7 @@ export default defineConfig({
 
         footer: {
             message: 'Dual-licensed under AGPL-3.0 and Commercial License.',
-            copyright: 'Copyright © 2026 BentoPDF'
+            copyright: 'Copyright © 2026 SoftScout PDF'
         },
 
         search: {
