@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/:lang(en|de|zh|zh-TW|vi|it|id|tr|fr|pt)/",
+      "destination": "/index.html"
+    },
+    {
       "source": "/:lang(en|de|zh|zh-TW|vi|it|id|tr|fr|pt)",
       "destination": "/index.html"
     },
