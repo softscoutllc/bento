@@ -16,7 +16,6 @@ export default defineConfig({
             { text: 'Tools', link: '/tools/' },
             { text: 'Self-Hosting', link: '/self-hosting/' },
             { text: 'Contributing', link: '/contributing' },
-            { text: 'Commercial License', link: '/licensing' }
         ],
 
         sidebar: {
@@ -52,7 +51,6 @@ export default defineConfig({
                         { text: 'Tools Reference', link: '/tools/' },
                         { text: 'Self-Hosting', link: '/self-hosting/' },
                         { text: 'Contributing', link: '/contributing' },
-                        { text: 'Commercial License', link: '/licensing' }
                     ]
                 }
             ]

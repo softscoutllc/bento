@@ -39,7 +39,7 @@ SoftScout PDF is dual-licensed:
 - **AGPL-3.0** for open-source projects where you share your full source code publicly
 - **Commercial License** for proprietary/closed-source applications - **[Get Lifetime License for $49](https://ko-fi.com/s/f32ca4cb75)** (a one-time lifetime purchase, includes all feature updates forever)
 
-For more details, see our [Licensing Page](https://softscout.net/licensing.html)
+For more details, see [LICENSE](LICENSE)
 
 <hr>
 
@@ -676,7 +676,6 @@ Documentation files are in the `docs/` folder:
 - `docs/tools/` - Tools reference
 - `docs/self-hosting/` - Self-hosting guides (Docker, Vercel, Netlify, Hostinger, etc.)
 - `docs/contributing.md` - Contributing guide
-- `docs/licensing.md` - Commercial license info
 
 ---
 

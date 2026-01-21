@@ -16,9 +16,6 @@ hero:
     - theme: alt
       text: Self-Host
       link: /self-hosting/
-    - theme: alt
-      text: Commercial License
-      link: /licensing
 
 features:
   - icon: 🔒
