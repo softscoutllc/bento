@@ -5,7 +5,7 @@
  * Version: 1.1.0
  */
 
-const CACHE_VERSION = 'bentopdf-v7';
+const CACHE_VERSION = 'bentopdf-v8';
 const CACHE_NAME = `${CACHE_VERSION}-static`;
 
 const getBasePath = () => {
@@ -254,6 +254,9 @@ function getLocalPathForCDNUrl(pathname) {
  * Handles both local and CDN URLs
  */
 function shouldCache(pathname, isCDN = false) {
+  if (pathname.includes('/locales/')) {
+    return false;
+  }
   if (isCDN) {
     return (
       pathname.includes('/@bentopdf/pymupdf-wasm') ||
